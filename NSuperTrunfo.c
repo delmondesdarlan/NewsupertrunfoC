@@ -51,11 +51,11 @@ tm_info = localtime(&t);
         printf("Digite a populacao da cidade: ");
         scanf("%d", &cartas[i].populacao);
 
-        // Captura da área
+        // Captura área da Cidade
         printf("Digite a area da cidade(km²): ");
         scanf("%f", &cartas[i].area);
 
-        // Captura do PIB
+        // Captura do PIB em Bilhoes
         printf("Digite o PIB da cidade (em bilhões): ");
         scanf("%f", &cartas[i].pib);
 
