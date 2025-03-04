@@ -47,7 +47,7 @@ tm_info = localtime(&t);
         printf("Digite o nome da cidade: ");
         scanf(" %[^\n]", cartas[i].nomeCidade);// Lendo espaços 
 
-        // Captura da população
+        // Captura da população.
         printf("Digite a populacao da cidade: ");
         scanf("%d", &cartas[i].populacao);
 
